@@ -1,0 +1,47 @@
+@media  (max-width:1200px) {
+    #mynav{
+        padding: 10px 0px;
+    }
+
+    .card-container{
+        flex-wrap: wrap;
+    }
+
+    .start , .bottom{
+        min-width: 100%;
+        /* left: 0%; */
+    }
+
+    .end img{
+        display: none;
+    }
+}
+
+
+@media (max-width: 992px) {
+    .hero{
+        text-align: center;
+        padding: 20px 0px;
+    }
+    .heroimage img{
+        min-width: 100%;
+   }
+
+   .search-container{
+    justify-content: center;
+   }
+}
+
+@media (max-width: 600px) {
+    .search-box {
+        max-width: 100%;
+        border-radius: 0;
+    }
+
+    .search-box button {
+        padding: 12px;
+        font-size: 16px;
+    }
+
+
+}
